@@ -147,6 +147,13 @@ header img {
   grid-row-end: 9;
 }
 
+.treks-card-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
 .footer {
   background: #F4F4F4;
   display: flex;
