@@ -51,6 +51,7 @@ header img {
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   width: 40vw;
+  margin: 10px;
 }
 
 .card-trip > img {
@@ -70,7 +71,6 @@ header img {
   opacity: .7;
   margin: 0;
 }
-
 
 .card-trip .card-trip-infos {
   padding: 16px;
