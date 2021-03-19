@@ -37,7 +37,7 @@
             <a class="nav-link" href="#">Blog</a>
           </li>
         </ul>
-        <button class="btn btn-outline-success" type="button">Book Now</button>
+        <button class="btn btn-outline-success" type="button" data-bs-toggle="modal" data-bs-target="#bookNow">Book Now</button>
       </div>
     </div>
   </nav>
@@ -46,41 +46,83 @@
       <div class="container">
         <h1>Guided treks and walking tours around Nepal</h1>
         <p>Book a life changing adventure today.</p>
-        <a class="btn btn-light" href="#">Book now</a>
+        <a type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#bookNow">Book now</a>
       </div>
     </div>
     <div class="container mt-3 about">
       <h1>About</h1>
       <p>Many assume walking in the Himalayas is only for rugged types who enjoy roughing it. That was true in 1953, when Everest was first climbed and trekking tourism didn’t exist. Now there are new ways to experience the Himalayas: luxury lodges for those looking to take in the views with a bit of comfort; treks that focus as much on culture as scenery; and new lodges and homestays for those who want to relax and get beneath the surface of Himalayan life.<br><br>Here at Lama Goes Guiding everything is organized for you including accommodation, food and travel so all you need to do is strap up your boots and enjoy the scenery. Check out some of my favorite treks or contact me to discuss your next adventure</p>
     </div>
-
-    <div class="trip-card-container mt-5">
-      <div class="card-trip">
-        <img src="https://images.unsplash.com/photo-1561891099-b8c46d2d8ee1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1047&q=80" />
-        <div class="card-trip-infos">
-          <div>
-            <h2>Poon Hill Trek</h2>
-            <p>The Poon Hill Trek is also known as the Annapurna Sunrise Trek this 4 day trek will take you to the Summit of Poon Hill (3,210m) where you can see the sunrise over the Annapurna Range, one of the most beautiful mountain ranges in the world. This is one of Nepals most scenic and also easiest treks, you won’t have to worry about altitude sickness, and you can do it in as little as 4 days, a perfect introduction to trekking in Nepal</p>
+    <div class="container">
+      <div class="trip-card-container mt-5">
+        <div class="card-trip">
+          <img src="https://images.unsplash.com/photo-1561891099-b8c46d2d8ee1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1047&q=80" />
+          <div class="card-trip-infos">
+            <div>
+              <h2>Poon Hill Trek</h2>
+              <p>The Poon Hill Trek is also known as the Annapurna Sunrise Trek this 4 day trek will take you to the Summit of Poon Hill (3,210m) where you can see the sunrise over the Annapurna Range, one of the most beautiful mountain ranges in the world. This is one of Nepals most scenic and also easiest treks, you won’t have to worry about altitude sickness, and you can do it in as little as 4 days, a perfect introduction to trekking in Nepal</p>
+            </div>
+            <h2 class="card-trip-pricing">from £199.99</h2>
           </div>
-          <h2 class="card-trip-pricing">from £199.99</h2>
         </div>
-      </div>
-      <div class="card-trip">
-        <img src="https://images.unsplash.com/photo-1609772457544-98dbef8c35ff?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=679&q=80" />
-        <div class="card-trip-infos">
-          <div>
-            <h2>Mardi Himal Trek</h2>
-            <p>Mardi Himal is a challenging and beautiful 4-day trek in the Annapurna region that offers breathtaking views of the Himalayan mountain range. It’s a lesser-known route compared to the famous Everest Base Camp trek or Annapurna Circuit trek. It takes you up to the Mardi Himal Base Camp at 4,500m and can be combined with many other treks.</p>
+        <div class="card-trip">
+          <img src="https://images.unsplash.com/photo-1609772457544-98dbef8c35ff?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=679&q=80" />
+          <div class="card-trip-infos">
+            <div>
+              <h2>Mardi Himal Trek</h2>
+              <p>Mardi Himal is a challenging and beautiful 4-day trek in the Annapurna region that offers breathtaking views of the Himalayan mountain range. It’s a lesser-known route compared to the famous Everest Base Camp trek or Annapurna Circuit trek. It takes you up to the Mardi Himal Base Camp at 4,500m and can be combined with many other treks.</p>
+            </div>
+            <h2 class="card-trip-pricing">from £399.99</h2>
           </div>
-          <h2 class="card-trip-pricing">£399.99</h2>
         </div>
       </div>
     </div>
+
     <div class="booknowspacer my-5">
       <button class="btn btn-outline-secondary btn-lg">View More</button>
-      <button class="btn btn-success btn-lg">Book Now</button>
+      <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#bookNow">Book Now</button>
+    </div>
+
+    <div class="container photogrid">
+      <figure class="gallery__item gallery__item--1">
+        <img src="https://images.unsplash.com/photo-1529733905113-027ed85d7e33?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1234&q=80" class="gallery__img" alt="Image 1">
+      </figure>
+      <figure class="gallery__item gallery__item--2">
+        <img src="https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1234&q=80" class="gallery__img" alt="Image 2">
+      </figure>
+      <figure class="gallery__item gallery__item--3">
+        <img src="https://images.unsplash.com/photo-1554710869-95f3df6a3197?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1225&q=80" class="gallery__img" alt="Image 3">
+      </figure>
+      <figure class="gallery__item gallery__item--4">
+        <img src="https://images.unsplash.com/photo-1511215579272-6192432f83bc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" class="gallery__img" alt="Image 4">
+      </figure>
+      <figure class="gallery__item gallery__item--5">
+        <img src="https://images.unsplash.com/photo-1516477485464-abbcea8f9b1f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" class="gallery__img" alt="Image 5">
+      </figure>
+      <figure class="gallery__item gallery__item--6">
+        <img src="https://images.unsplash.com/photo-1609898793184-7d1496532e84?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1276&q=80" class="gallery__img" alt="Image 6">
+      </figure>
     </div>
   </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="bookNow" tabindex="-1" aria-labelledby="bookNowLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="bookNowLabel">Bookings</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          We are currently developing our booking system. For enquiries please contact me on instagram <a href="https://www.instagram.com/lama_czu/">@lamagoesguiding</a>.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
 
   <div class="footer">
@@ -92,4 +134,5 @@
       This site is made with <i class="fas fa-heart"></i> from Todd Neale
     </div>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
