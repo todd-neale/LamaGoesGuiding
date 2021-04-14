@@ -510,6 +510,9 @@ h2 {
   .description-top {
   flex-direction: column-reverse;
   }
+  #about {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 992px) {
