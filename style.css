@@ -42,14 +42,6 @@ h2 {
   font-weight: lighter;
   font-size: 32px;
 }
-a {
-  color: black !important;
-  text-decoration: none !important;
-}
-a:hover {
-  text-decoration: underline !important;
-  color: black !important;
-}
 
 #banner {
   background-size: cover;
@@ -71,6 +63,21 @@ a:hover {
   color: white;
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+#tourpage-banner {
+  background-size: cover;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1492584328860-c0c7bb599679?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  background-position: center;
+  padding: 300px 0 40px 0;
+}
+
+#tourpage-banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
 }
 
 .text-video {
@@ -206,8 +213,6 @@ a:hover {
   display: flex;
   justify-content: space-around;
 }
-
-
 
 .footer {
   background: #F4F4F4;
@@ -399,6 +404,15 @@ a:hover {
   padding-left: 20px;
 }
 
+.quicklinks a {
+  color: black !important;
+  text-decoration: none !important;
+}
+.quicklinks a:hover {
+  text-decoration: underline !important;
+  color: black !important;
+}
+
 .companyinfo {
   flex: 1;
   background-color: #132E32;
@@ -412,6 +426,15 @@ a:hover {
   height: 150px;
   text-align: left;
   padding: 40px;
+}
+
+.contact a {
+  color: black !important;
+  text-decoration: none !important;
+}
+.contact a:hover {
+  text-decoration: underline !important;
+  color: black !important;
 }
 
 .logo-mobile {
